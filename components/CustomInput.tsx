@@ -9,11 +9,13 @@ import { formSchema } from "@/lib/utils";
 import { Control, FieldPath } from "react-hook-form";
 import { z } from "zod";
 
+const authFormSchema = formSchema("sign-up");
+
 type Props = {
   form: {
-    control: Control<z.infer<typeof formSchema>>;
+    control: Control<z.infer<typeof authFormSchema>>;
   };
-  name: FieldPath<z.infer<typeof formSchema>>;
+  name: FieldPath<z.infer<typeof authFormSchema>>;
   type: string;
   label: string;
   placeholder: string;
