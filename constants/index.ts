@@ -135,3 +135,9 @@ export const transactionCategoryStyles = {
     chipBackgroundColor: "bg-inherit",
   },
 };
+
+export const NEXT_PUBLIC_APPWRITE_ENDPOINT =
+  process.env.NEXT_PUBLIC_APPWRITE_ENDPOINT!;
+export const NEXT_PUBLIC_APPWRITE_PROJECT =
+  process.env.NEXT_PUBLIC_APPWRITE_PROJECT!;
+export const NEXT_APPWRITE_KEY = process.env.NEXT_APPWRITE_KEY!;
