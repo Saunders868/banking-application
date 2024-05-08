@@ -141,3 +141,5 @@ export const NEXT_PUBLIC_APPWRITE_ENDPOINT =
 export const NEXT_PUBLIC_APPWRITE_PROJECT =
   process.env.NEXT_PUBLIC_APPWRITE_PROJECT!;
 export const NEXT_APPWRITE_KEY = process.env.NEXT_APPWRITE_KEY!;
+export const PLAID_SECRET = process.env.PLAID_SECRET!;
+export const PLAID_CLIENT_ID = process.env.PLAID_CLIENT_ID!;
