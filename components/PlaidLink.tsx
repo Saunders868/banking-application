@@ -13,7 +13,7 @@ import {
 
 const PlaidLink = ({ user, variant }: PlaidLinkProps) => {
   const router = useRouter();
-  const [token, setToken] = useState("second");
+  const [token, setToken] = useState("");
 
   useEffect(() => {
     const fetchToken = async () => {
